@@ -307,6 +307,96 @@ body {
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px 5%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .home {
+        flex-direction: column;
+        height: auto;
+        padding: 100px 5% 20px;
+    }
+
+    .home-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .profileimage {
+        width: 200px;
+        border-radius: 100px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+    }
+
+    .about-img img {
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 36px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        margin-bottom: 2rem;
+    }
+
+    .sub-title {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .services-list div {
+        padding: 20px;
+    }
+
+    .footer div i {
+        font-size: 36px;
+        margin: 5px;
+    }
+}
+
+
 @keyframes slideRight {
     0%{
         transform: translateX(-100px);
@@ -328,3 +418,4 @@ body {
         opacity: 1;
     }
 }
+
