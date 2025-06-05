@@ -11,7 +11,7 @@ Ini adalah repository untuk situs web pribadi saya, dibangun menggunakan HTML da
 2. CSS3
 3. GitHub Pages untuk hosting
 
-Situs Anda akan tersedia di: https://z0rayy.github.io/website-personal/
+Situs yang bisa anda akses: https://z0rayy.github.io/website-personal/
 
 🙌 Kontribusi
 Kontribusi sangat diterima! Jika Anda memiliki saran atau perbaikan, silakan buat issue atau pull request.
