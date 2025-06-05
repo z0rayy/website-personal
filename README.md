@@ -1,4 +1,4 @@
-🌐 website-personal
+🌐 Portofolio Website
 Ini adalah repository untuk situs web pribadi saya, dibangun menggunakan HTML dan CSS. Situs ini dirancang untuk menampilkan informasi tentang saya, termasuk portofolio, pengalaman, dan cara menghubungi saya.
 
 🚀 Fitur
