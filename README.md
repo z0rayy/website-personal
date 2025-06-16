@@ -9,7 +9,8 @@ Ini adalah repository untuk situs web pribadi saya, dibangun menggunakan HTML da
 ## 🛠️ Teknologi yang Digunakan
 1. HTML5
 2. CSS3
-3. GitHub Pages untuk hosting
+3. JavaScript
+4. GitHub Pages untuk hosting
 
 Situs yang bisa anda akses: https://z0rayy.github.io/website-personal/
 
