@@ -73,7 +73,7 @@ body {
     animation: slideTop 1s ease forwards;
 }
 .navbar a:hover{
-    color: #082b59;
+    color: cyan;
 }
 
 .home {
