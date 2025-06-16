@@ -8,8 +8,8 @@
 }
 
 body {
-    /* background: linear-gradient(#082b59 0%, #08428c 40%, #082b59 100%); */
-    background-image: url(background.jpg);
+    background: linear-gradient(#0049C6 0%, #001D74 25%, #0049C6 50%, #082b59 75%, #001D74 100%);
+    /* background-image: url(background .jpg); */
 }
 
 .text-center{
@@ -70,7 +70,7 @@ body {
     margin-left: 35px;
     transition: .3s;
     opacity: 0;
-    animation: slideTop .5s ease forwards;
+    animation: slideTop 1s ease forwards;
 }
 .navbar a:hover{
     color: #082b59;
@@ -127,7 +127,7 @@ body {
     height: auto;
     border-radius: 100px;
     opacity: 0;
-    animation: slideTop .5s ease forwards;
+    animation: slideTop 1s ease forwards;
 }
 .intro-text h3 span{
     color: cyan;
@@ -198,13 +198,13 @@ body {
     margin-bottom: 4rem;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 #certificate {
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 2.5s;
+    animation-delay: 1s;
 }
 
 .sub-title {
@@ -461,94 +461,147 @@ body {
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        padding: 10px 5%;
-    }
-
-    .navbar a {
-        font-size: 18px;
-        margin-left: 15px;
-    }
-
-    .home {
-        flex-direction: column;
-        height: auto;
-        padding: 100px 5% 20px;
-    }
-
-    .home-content {
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-        padding: 0;
-    }
-
-    .profileimage {
-        width: 200px;
-        border-radius: 100px;
-    }
-
-    .home-content p {
-        font-size: 18px;
-        padding: 0 10px;
-    }
-
-    .home-content h1 {
-        font-size: 28px;
-    }
-
-    .home-content h3 {
-        font-size: 20px;
-    }
-
-    .about {
-        grid-template-columns: 1fr;
-        padding: 0 5%;
-    }
-
-    .about-img img {
-        margin: 0 auto;
-        padding-bottom: 0;
-    }
-
-    .about-text {
-        text-align: center;
-    }
-
-    .about-text h2 {
-        font-size: 36px;
-    }
-
-    .about-text p {
-        font-size: 16px;
-        margin-bottom: 2rem;
-    }
-
-    .sub-title {
-        font-size: 36px;
-        padding-bottom: 30px;
-    }
-
-    .container {
-        padding: 30px 20px;
-    }
-
-    .services-list {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-
-    .services-list div {
-        padding: 20px;
-    }
-
-    .footer div i {
-        font-size: 36px;
-        margin: 5px;
-    }
+.hidden {
+  opacity: 0;
 }
+
+.show-slide-top {
+  animation: slideTop 3s ease forwards;
+}
+
+/* Tablet (<= 1024px) */
+@media (max-width: 1024px) {
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .home-content p {
+    font-size: 20px;
+  }
+
+  .profileimage {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .about-img img {
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .about-text {
+    margin: 30px 10px;
+  }
+
+  .container {
+    padding: 50px 20px;
+  }
+
+  .project .card {
+    width: 100%;
+  }
+
+  .sub-title {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+/* Mobile (<= 600px) */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 15px 5%;
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar a {
+    margin: 5px 10px;
+    font-size: 16px;
+  }
+
+  .home {
+    height: auto;
+    padding: 120px 20px 60px;
+  }
+
+  .home-content h1 {
+    font-size: 28px;
+  }
+
+  .home-content h3 {
+    font-size: 22px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .profileimage {
+    width: 150px;
+    border-radius: 100px;
+  }
+
+  .about-text h2 {
+    font-size: 32px;
+  }
+
+  .about-text h4 {
+    font-size: 20px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .services-list,
+  .certificate-list {
+    grid-template-columns: 1fr;
+  }
+
+  .read,
+  .read1 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .footer div i {
+    font-size: 36px;
+  }
+
+  .footer h1 {
+    font-size: 24px;
+  }
+}
+
 
 
 @keyframes slideRight {
