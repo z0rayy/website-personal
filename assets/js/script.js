@@ -11,3 +11,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 
   document.querySelectorAll('.show-on-scroll').forEach((el) => observer.observe(el));
+
+function showSidebar(){
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.display = 'flex'
+}
+
+function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.display = 'none'
+}

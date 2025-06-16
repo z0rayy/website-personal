@@ -11,6 +11,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
@@ -28,11 +29,13 @@
         <a href="#certificate">Certificate</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
+        <a class="hamburger" onclick=showSidebar()><span class="material-icons">menu</span></a>
       </nav>
     </header>
 
     <!-- next update sidebar -->
     <nav class="sidebar">
+      <a onclick=hideSidebar()><span class="material-icons">close</span></a>
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Skills</a>
