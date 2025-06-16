@@ -1,134 +1,300 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
-    <link rel="icon" type="image/png" href="assets/image/profile.png">
-    <link rel="stylesheet" href="assets/style/app.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
-</head>
+    <link rel="icon" type="image/png" href="assets/image/profile.png" />
+    <link rel="stylesheet" href="assets/style/app.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <a href="#" class="logo">Portofolio</a>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Skills</a>
-            <a href="#certificate">Certificate</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <div class="header-left">
+        <i class="bx bxs-user-circle"></i>
+        <a href="#home" class="logo"
+          >Porto<span style="color: cyan">folio</span></a
+        >
+      </div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    <section class="home">
-        <div class="home-content">
-            <img class="profileimage" src="assets/image/image.jpg" alt="">
-            <div class="intro-text">
-                <h3>Hallo, <span>Saya</span></h3>
-                <h1>Rayhan Dwi Putra</h1>
-                <br>
-                <p>Seorang mahasiswa informatika yang sedang fokus pada
-                    pengembangan web dan analisis data.
-                </p>
-                <a href="#about" class="read1">More about me</a>
-            </div>
+    <section class="home" id="home">
+      <div class="home-content">
+        <img class="profileimage" src="assets/image/image.jpg" alt="" />
+        <div class="intro-text">
+          <h3>Hallo, <span>Saya</span></h3>
+          <h1>Rayhan Dwi Putra</h1>
+          <br />
+          <p>
+            Seorang mahasiswa informatika yang sedang fokus pada pengembangan
+            web dan programming.
+          </p>
+          <a href="#about" class="read1">More about me</a>
         </div>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="assets/image/untan.png" alt="">
-        </div>
-        <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Mahasiswa Universitas Tanjungpura</h4>
-            <p>Halo! Saya Rayhan Dwi Putra, seorang mahasiswa Informatika yang memiliki ketertarikan tinggi pada dunia
-                teknologi, khususnya dalam pengembangan web, analisis data, dan pemrograman. Saya aktif mengembangkan
-                kemampuan melalui berbagai proyek dan pelatihan online, serta selalu terbuka untuk tantangan baru yang
-                dapat memperluas wawasan dan pengalaman saya di bidang IT.</p>
-        </div>
+      <div class="about-img">
+        <img src="assets/image/untan.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Mahasiswa Universitas Tanjungpura</h4>
+        <p>
+          Halo! Saya Rayhan Dwi Putra, seorang mahasiswa Informatika yang
+          memiliki ketertarikan tinggi pada dunia teknologi, khususnya dalam
+          pengembangan web, dan pemrograman. Saya aktif mengembangkan kemampuan
+          melalui berbagai proyek dan pelatihan online, serta selalu terbuka
+          untuk tantangan baru yang dapat memperluas wawasan dan pengalaman saya
+          di bidang IT.
+        </p>
+      </div>
     </section>
 
     <section>
-        <div class="services" id="services">
-            <div class="container">
-                <h1 class="sub-title">My <span>Skills</span></h1>
-                <div class="services-list">
-                    <div>
-                        <i style="color: #c95d2e;" class='bx bxl-html5'></i>
-                        <h2>HTML</h2>
-                        <p>Digunakan untuk membuat struktur dasar halaman web, seperti portofolio ini, dengan susunan
-                            elemen yang terorganisir dan semantic.</p>
-                        <a href="https://www.w3schools.com/html/" class="read" target="_blank">Learn More</a>
-                    </div>
-                    <div>
-                        <i style="color: #147bbc;" class='bx bxl-css3'></i>
-                        <h2>CSS</h2>
-                        <p>Digunakan untuk memperindah tampilan website agar responsif dan menarik di berbagai ukuran
-                            layar, serta mendukung pengalaman pengguna yang lebih baik.</p>
-                        <a href="https://www.w3schools.com/Css/" class="read" target="_blank">Learn More</a>
-                    </div>
-                    <div>
-                        <i style="color: #8892BE;" class='bx bxl-php'></i>
-                        <h2>PHP</h2>
-                        <p>Menguasai dasar-dasar pemrograman backend, termasuk mengolah form dan koneksi ke database
-                            MySQL secara sederhana.</p>
-                        <a href="https://www.w3schools.com/php/default.asp" class="read" target="_blank">Learn More</a>
-                    </div>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Skills</span></h1>
+          <div class="services-list">
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #c95d2e" class="bx bxl-html5"></i>
+                  <h2>HTML</h2>
+                  <span class="percent">70%</span>
+                  <div class="progress-line html"><span></span></div>
                 </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/html/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
             </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #147bbc" class="bx bxl-css3"></i>
+                  <h2>CSS</h2>
+                  <span class="percent">70%</span>
+                  <div class="progress-line css"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/css/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i class="bx bxl-javascript" style="color: #f0db4f"></i>
+                  <h2>JavaScript</h2>
+                  <span class="percent">60%</span>
+                  <div class="progress-line js"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/js/default.asp"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #8892be" class="bx bxl-php"></i>
+                  <h2>PHP</h2>
+                  <span class="percent">55%</span>
+                  <div class="progress-line php"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/php/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #5283a2" class="bx bxl-java"></i>
+                  <h2>Java</h2>
+                  <span class="percent">65%</span>
+                  <div class="progress-line jv"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/java/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #4b8bbe" class="bx bxl-python"></i>
+                  <h2>Python</h2>
+                  <span class="percent">60%</span>
+                  <div class="progress-line py"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/python/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #5e97d0" class="bx bxl-c-plus-plus"></i>
+                  <h2>C++</h2>
+                  <span class="percent">80%</span>
+                  <div class="progress-line cpp"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/cpp/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: white" class="bx bx-data"></i>
+                  <h2>MySQL</h2>
+                  <span class="percent">70%</span>
+                  <div class="progress-line db"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.w3schools.com/mysql/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+            <div class="card">
+              <div class="Technical-bars">
+                <div class="bar">
+                  <i style="color: #167ffc" class="bx bxl-figma"></i>
+                  <h2>Figma</h2>
+                  <span class="percent">40%</span>
+                  <div class="progress-line figma"><span></span></div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://www.geeksforgeeks.org/websites-apps/figma-tutorial/"
+                class="read"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
-    <section>
-        <div class="certificate" id="certificate">
-            <div class="container">
-                <h1 class="sub-title">My <span>Certificate</span></h1>
-                <div class="services-list">
-                    <div class="dicoding">
-                        <img src="assets/image/dicoding.png" alt="">
-                        <h2>Belajar Dasar AI - Dicoding</h2>
-                        <p>Mempelajari konsep dasar kecerdasan buatan, termasuk machine learning, natural language
-                            processing, dan penerapan AI dalam kehidupan sehari-hari.</p>
-                        <a href="https://www.linkedin.com/in/rayhandwiputra/details/certifications/" class="read" target="_blank">Lihat Sertifikat</a>
-                    </div>
-                    <div class="revou">
-                        <img src="assets/image/revou.png" alt="">
-                        <h2>Intro To Data Analytics - RevoU</h2>
-                        <p>Memahami proses analisis data dari pengumpulan, pengolahan, hingga visualisasi menggunakan
-                            spreadsheet dan Google Data Studio.
 
-                        </p>
-                        <a href="https://www.linkedin.com/in/rayhandwiputra/details/certifications/" class="read" target="_blank">Lihat Sertifikat</a>
-                    </div>
-                    <div class="hackerrank">
-                        <img src="assets/image/hackerrank.png" alt="">
-                        <h2>Problem Solving (Basic) – HackerRank</h2>
-                        <p>Menyelesaikan tantangan logika dan algoritma dasar sebagai bentuk pengasahan keterampilan
-                            pemrograman dan pemecahan masalah.</p>
-                        <a href="https://www.linkedin.com/in/rayhandwiputra/details/certifications/" class="read" target="_blank">Lihat Sertifikat</a>
-                    </div>
-                </div>
-            </div>
+    <section>
+      <div class="certificate" id="certificate">
+        <div class="container">
+          <h1 class="sub-title">My <span>Certificate</span></h1>
+          <div class="certificate-list">
+            <div><img src="assets/image/sertif-dicoding1.png" alt="" /></div>
+            <div><img src="assets/image/sertif-dicoding2.png" alt="" /></div>
+            <div><img src="assets/image/sertif-revou1.png" alt="" /></div>
+            <div><img src="assets/image/sertif-revou2.png" alt="" /></div>
+            <div><img src="assets/image/sertif-hackerrank1.png" alt="" /></div>
+            <div><img src="assets/image/sertif-hackerrank2.png" alt="" /></div>
+            <div><img src="assets/image/sertif-hackerrank3.png" alt="" /></div>
+          </div>
         </div>
+      </div>
     </section>
+
+    <section>
+      <div class="project" id="project">
+        <div class="container">
+          <h1 class="sub-title">My <span>Project</span></h1>
+          <div class="card">
+            <h2>Voting<span style="color: cyan">Yuk</span></h2>
+            <p>
+              Website Voting ini adalah aplikasi web berbasis JSP dan Servlet
+              untuk melakukan pemungutan suara secara digital. Fitur utamanya
+              meliputi login, register, buat polling, voting, dan tampilan hasil
+              dalam bentuk persentase.
+            </p>
+            <img src="assets/image/Project1.png" alt="" />
+            <i style="color: #c95d2e" class="bx bxl-html5"></i>
+            <i style="color: #147bbc" class="bx bxl-css3"></i>
+            <i style="color: #5283a2" class="bx bxl-java"></i>
+            <i style="color: white" class="bx bx-data"></i>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1VhsNyJwh-HcrQdwQEKd3SEf1GpiCSLZS/view?usp=drive_link"
+                class="read1"
+                target="_blank"
+                >Lihat Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#0099ff" fill-opacity="1"
-            d="M0,96L80,128C160,160,320,224,480,229.3C640,235,800,181,960,165.3C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-        </path>
+      <path
+        fill="#0099ff"
+        fill-opacity="1"
+        d="M0,96L80,128C160,160,320,224,480,229.3C640,235,800,181,960,165.3C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      ></path>
     </svg>
     <section class="footer" id="contact">
-        <div class="text-center">
-            <h1>Contact Me</h1>
-            <a href="https://www.instagram.com/ravrbae/" target="_blank"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.linkedin.com/in/rayhandwiputra/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="mailto:rayhan.d.putra24@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
-            <h3>Created By @Ravrbae 2025</h3>
-        </div>
+      <div class="text-center">
+        <h1>Contact Me</h1>
+        <a href="https://www.instagram.com/ravrbae/" target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/rayhandwiputra/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="mailto:rayhan.d.putra24@gmail.com" target="_blank"
+          ><i class="bx bxs-envelope"></i
+        ></a>
+        <h3>Created By @Ravrbae 2025</h3>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
