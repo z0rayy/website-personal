@@ -246,6 +246,7 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
+    transition: all 0.5s ease-out;
     box-shadow: 1px 1px 20px #012290f7, 
     1px 1px 40px #0053b8f7
 }
@@ -441,6 +442,7 @@ body {
 }
 
 .services-list .card:hover{
+    padding: 43px;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan,
     0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
