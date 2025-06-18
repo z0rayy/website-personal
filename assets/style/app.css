@@ -266,11 +266,13 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
+    transition: all 0.5s ease-out;
     box-shadow: 1px 1px 20px #012290f7, 
     1px 1px 40px #0053b8f7
 }
 
 .project .card:hover{
+    width: 51%;
     box-shadow: 0 0 5px cyan, 0 0 10px cyan,
     0 0 20px cyan, 0 0 50px cyan, 0 0 100px cyan;
 }
@@ -460,7 +462,12 @@ body {
     width: 100%;
 }
 
+.certificate-list div img{
+    transition: all 0.5s ease-out;
+}
+
 .certificate-list div img:hover{
+    width: 101%;
     box-shadow: 0 0 5px cyan, 0 0 10px cyan,
     0 0 20px cyan, 0 0 500px cyan, 0 0 100px cyan;
 }
