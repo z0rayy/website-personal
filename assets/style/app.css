@@ -22,7 +22,7 @@ body {
     left: 0%;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: rgba(0, 73, 198, 0.5);
     backdrop-filter: blur(10px);
     border-bottom: 3px solid rgba(255, 255, 255, 0.1);
     display: flex;
@@ -511,7 +511,7 @@ body {
     right: 0;
     width: 350px;
     height: 100vh;
-    background: transparent;
+    background: rgba(0, 73, 198, 0.5);
     backdrop-filter: blur(10px);
     z-index: 9999;
     display: none;
@@ -572,7 +572,7 @@ body {
     right: 0;
     width: 350px;
     height: 100vh;
-    background: transparent;
+    background: rgba(0, 73, 198, 0.5);
     backdrop-filter: blur(10px);
     z-index: 9999;
     display: none;
@@ -661,7 +661,7 @@ body {
     right: 0;
     width: 250px;
     height: 100vh;
-    background: transparent;
+    background: rgba(0, 73, 198, 0.5);
     backdrop-filter: blur(10px);
     z-index: 9999;
     display: none;
