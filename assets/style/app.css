@@ -273,7 +273,6 @@ body {
 }
 
 .project .card:hover{
-    width: 51%;
     box-shadow: 0 0 5px cyan, 0 0 10px cyan,
     0 0 20px cyan, 0 0 50px cyan, 0 0 100px cyan;
 }
