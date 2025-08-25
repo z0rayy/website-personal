@@ -401,19 +401,19 @@ body {
 }
 
 .progress-line.html span{
-    width: 70%;
+    width: 75%;
 }
 
 .progress-line.css span{
-    width: 70%;
+    width: 75%;
 }
 
 .progress-line.js span{
-    width: 60%;
+    width: 50%;
 }
 
 .progress-line.php span{
-    width: 55%;
+    width: 50%;
 }
 
 .progress-line.jv span{
